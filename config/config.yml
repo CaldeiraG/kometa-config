@@ -1,22 +1,22 @@
 # Change the library names below to your exact(!) plex library names.
 libraries:
-  Anime:
-    remove_overlays: false
-    collection_files:
-      - file: config/1-Anime.yml
-      - file: config/1-Anime_Genres.yml
-      - file: config/1-Anime_Franchises.yml
-      - file: config/1-Anime_Networks.yml
-      - file: config/1-Anime_Separators.yml
-      - file: config/1-Anime_Specials.yml
-      - file: config/1-Anime_Years.yml
-    operations:
-      mass_audience_rating_update: mdb_myanimelist
-    overlay_files:
-      - file: config/1.1-Anime_Overlays_ContentRating.yml
-      - file: config/1.1-Anime_Overlays_Rating.yml
-      - file: config/1.1-Anime_Overlays_Resolution.yml
-      - file: config/1.1-Anime_Overlays_Top.yml
+#  Anime:
+#    remove_overlays: false
+#    collection_files:
+#      - file: config/1-Anime.yml
+#      - file: config/1-Anime_Genres.yml
+#      - file: config/1-Anime_Franchises.yml
+#      - file: config/1-Anime_Networks.yml
+#      - file: config/1-Anime_Separators.yml
+#      - file: config/1-Anime_Specials.yml
+#      - file: config/1-Anime_Years.yml
+#    operations:
+#      mass_audience_rating_update: mdb_myanimelist
+#    overlay_files:
+#      - file: config/1.1-Anime_Overlays_ContentRating.yml
+#      - file: config/1.1-Anime_Overlays_Rating.yml
+#      - file: config/1.1-Anime_Overlays_Resolution.yml
+#      - file: config/1.1-Anime_Overlays_Top.yml
   # Audiobooks:
   # collection_files:
   # - file: config/2-Audiobooks_Genres.yml
@@ -35,6 +35,9 @@ libraries:
       - file: config/3-Movies_Years.yml
     operations:
       mass_audience_rating_update: imdb
+      delete_collections:
+        configured: false
+        managed: true
     overlay_files:
       - file: config/3.1-Movies_Overlays_4K.yml
       - file: config/3.1-Movies_Overlays_Rating.yml
@@ -72,6 +75,9 @@ libraries:
       - file: config/7-TV_Years.yml
     operations:
       mass_audience_rating_update: imdb
+      delete_collections:
+        configured: false
+        managed: true
     overlay_files:
       - file: config/7.1-TV_Overlays_4K.yml
       - file: config/7.1-TV_Overlays_Canceled.yml
@@ -127,7 +133,7 @@ webhooks: # Can be individually specified per library as well
   run_end:
   changes:
 plex: # Can be individually specified per library as well; REQUIRED for the script to run
-  url: http://192.168.1.12:32400
+  url: http://192.168.1.181:32400
   token: ####################
   timeout: 60
   db_cache:
@@ -138,7 +144,7 @@ tmdb: # REQUIRED for the script to run
   apikey: ################################
   language: en
 tautulli: # Can be individually specified per library as well
-  url: http://192.168.1.12:8181
+  url: http://192.168.1.181:8181
   apikey: ################################
 github:
   token: ################################
@@ -154,11 +160,11 @@ anidb: # Not required for AniDB builders unless you want mature content
   username: ######
   password: ######
 radarr: # Can be individually specified per library as well
-  url: http://192.168.1.12:7878
+  url: http://192.168.1.181:7878
   token: ################################
   add_missing: false
   add_existing: false
-  root_folder_path: S:/Movies
+  root_folder_path: /data/Movies
   monitor: true
   availability: announced
   quality_profile: HD-1080p
@@ -167,11 +173,11 @@ radarr: # Can be individually specified per library as well
   radarr_path:
   plex_path:
 sonarr: # Can be individually specified per library as well
-  url: http://192.168.1.12:8989
+  url: http://192.168.1.181:8989
   token: ################################
   add_missing: false
   add_existing: false
-  root_folder_path: "S:/TV Shows"
+  root_folder_path: /data/tvshows
   monitor: all
   quality_profile: HD-1080p
   language_profile: English
