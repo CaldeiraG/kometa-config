@@ -42,7 +42,7 @@ templates:
 
 # TV shows who has won some the most prestigious awards
 collections:
-  BAFTA - Nominees:
+  BAFTA - Nomeados:
     template: { name: imdb }
     summary: "A collection of BAFTA Nominees"
     visible_library: false
@@ -56,7 +56,7 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  BAFTA - Winners:
+  BAFTA - Vencedores:
     template: { name: imdb }
     summary: "A collection of BAFTA Winners"
     visible_shared: monthly(10)
@@ -71,7 +71,7 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Critics Choice Awards - Nominees:
+  Critics Choice Awards - Nomeados:
     template: { name: imdb }
     summary: "A collection of Critics Choice Award Nominees"
     visible_shared: monthly(30)
@@ -86,7 +86,7 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Critics Choice Awards - Winners:
+  Critics Choice Awards - Vencedores:
     template: { name: imdb }
     summary: "A collection of Critics Choice Award Winners"
     visible_shared: monthly(5)
@@ -101,7 +101,7 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Emmy - Winners:
+  Emmy - Vencedores:
     template: { name: imdb }
     summary: "A collection of Emmy Award Winners"
     visible_shared: monthly(20)
@@ -115,7 +115,7 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Emmy - Nominees:
+  Emmy - Nomeados:
     template: { name: imdb }
     summary: "A collection of Emmy Award Nominees"
     visible_shared: monthly(25)
@@ -129,7 +129,7 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Golden Globe - Nominees:
+  Golden Globe - Nomeados:
     template: { name: imdb }
     summary: "A collection of Golden Globes Nominees"
     visible_library: false
@@ -143,7 +143,7 @@ collections:
       sort_by: release.desc
       limit: 9999
 
-  Golden Globe - Winners:
+  Golden Globe - Vencedores:
     template: { name: imdb }
     summary: "A collection of Golden Globes Winners"
     visible_shared: monthly(15)

@@ -24,7 +24,7 @@ templates:
     visible_library: true
 
 collections:
-  IMDb - Best Recent: # IMDb specific chart lists
+  IMDb - Melhores Recentes: # IMDb specific chart lists
     template: { name: Movie Top }
     sort_title: ++++_IMDb Best Rated
     visible_shared:
@@ -50,13 +50,13 @@ collections:
     file_poster: config/posters/IMDb Top 250 Gold.png
     trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-movies?sort=rank,asc
 
-  Letterboxd - Best Picture: # Letterboxd specific chart lists
+  Letterboxd - Melhor Imagem: # Letterboxd specific chart lists
     template: { name: Movie Release }
     summary: Best movie of every year according to Letterboxd.
     file_poster: config/posters/Letterboxd Best Picture.png
     letterboxd_list: https://letterboxd.com/w0cks/list/best-picture-for-each-year-according-to-letterboxd/by/release/
 
-  Letterboxd - Million Watched:
+  Letterboxd - 1 Milhão Viram:
     template: { name: Movie }
     summary: Movies with over a million views on Letterboxd.
     file_poster: config/posters/Letterboxd Million Watched.png
@@ -64,7 +64,7 @@ collections:
       - https://www.imdb.com/list/ls527628941/
       - https://www.imdb.com/list/ls564252143/
 
-  Letterboxd - Most Fans:
+  Letterboxd - Mais fãs:
     template: { name: Movie }
     summary: Movies with the most "fans" on Letterboxd.
     visible_shared: monthly(15)
@@ -79,7 +79,7 @@ collections:
     file_poster: config/posters/Letterboxd Top 250 Gold.png
     trakt_list: https://trakt.tv/users/abdulwahabaa/lists/letterboxd-top-250?sort=rank,asc
 
-  MAL - Most Favorited: # MyAnimeList specific chart lists
+  MAL - Os Mais Favoritados: # MyAnimeList specific chart lists
     template: { name: Movie }
     mal_favorite: 500
     summary: Most favorited animes on MyAnimeList.
@@ -91,14 +91,14 @@ collections:
     summary: Anime movies popular this season according to MyAnimeList and Anilist.
     file_poster: config/posters/MAL Popular.png
 
-  MAL - Top Rated:
+  MAL - Melhor votados:
     template: { name: Movie }
     mal_movie: 500
     visible_shared: monthly(18)
     summary: The highest rated anime movies ever according to MyAnimeList.
     file_poster: config/posters/MAL Top Rated Gold.png
 
-  Metacritic - Must-See:
+  Metacritic - Imperdíveis:
     template: { name: Movie }
     limit: 200
     visible_shared: monthly(31)
@@ -137,7 +137,7 @@ collections:
     visible_shared: monthly(3)
     summary: Recentley released movies on TMDb.
 
-  Top Rated: # Top rated list from Trakt and TMdb
+  Melhor Classificados: # Top rated list from Trakt and TMdb
     template: { name: Movie }
     tmdb_top_rated: 350
     sort_title: ++++++_Top Rated
@@ -151,14 +151,14 @@ collections:
     summary: Top Rated Movies on Trakt and TMDb.
     trakt_list: https://trakt.tv/users/patricafdw/lists/trakt-top-movies
 
-  TorrentFreak - Most Pirated: # TorrentFreak specific chart lists
+  TorrentFreak - Mais Pirateados: # TorrentFreak specific chart lists
     template: { name: Movie Basic }
     summary: Most pirated movies of the week according TorrentFreak.
     collection_order: custom
     file_poster: config/posters/TorrentFreak Most Pirated.png
     trakt_list: https://trakt.tv/users/hdlists/lists/top-ten-pirated-movies-of-the-week-torrent-freak-com
 
-  Trakt - Most Watched (All-Time): # Trakt specific chart lists
+  Trakt - Mais Assistidos (Sempre): # Trakt specific chart lists
     template: { name: Movie }
     trakt_chart:
       chart: watched
@@ -168,7 +168,7 @@ collections:
     visible_shared: monthly(13)
     summary: Movies most watched online of all time.
 
-  Trakt - Most Watched (Yearly):
+  Trakt - Mais Assistidos (Anual):
     template: { name: Movie }
     trakt_chart:
       chart: watched
@@ -178,7 +178,7 @@ collections:
     summary: Most watched movies across the internet this year.
     visible_shared: monthly(12)
 
-  Trakt - Recommended:
+  Trakt - Recomendados:
     template: { name: Movie }
     trakt_recommendations: 60
     sort_title: ++++_Trakt - Recommended
@@ -186,7 +186,7 @@ collections:
     visible_shared: monthly(19)
     file_poster: config/posters/Trakt Recommended.png
 
-  Trending: # Trending list from Trakt and TMDb
+  Tendências: # Trending list from Trakt and TMDb
     template: { name: Movie Release }
     tmdb_trending_weekly: 30
     trakt_chart:

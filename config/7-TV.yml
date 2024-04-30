@@ -20,7 +20,7 @@ templates:
     visible_library: true
 
 collections:
-  IMDb - Best Recent: # IMDb specific chart lists
+  IMDb - Os Melhores Recentes: # IMDb specific chart lists
     template: { name: TV Top }
     summary: TV shows rated 7.5 or higher on IMDb, released in the past 3 months.
     sort_title: +++++++_ZIMDb Best Recent
@@ -45,7 +45,7 @@ collections:
       - monthly(9)
     trakt_list: https://trakt.tv/users/justin/lists/imdb-top-rated-tv-shows?sort=rank,asc
 
-  Metacritic - Must-See: # Metacritic specific chart lists
+  Metacritic - Imperdível: # Metacritic specific chart lists
     template: { name: TV }
     visible_shared:
       - monthly(14)
@@ -90,7 +90,7 @@ collections:
     file_poster: config/posters/TMDb On the Air.png
     summary: Shows airing right now across streaming services.
 
-  Top Rated: # Top rated list from Trakt and TMDb
+  Melhor Classificados: # Top rated list from Trakt and TMDb
     template: { name: TV }
     tmdb_top_rated: 300
     sort_title: ++++++++_Top Rated
@@ -105,7 +105,7 @@ collections:
     summary: Top Rated Shows on Trakt and TMDb.
     trakt_list: https://trakt.tv/users/jason316/lists/trakt-yearly-top-tv?sort=released,asc
 
-  Trakt - Most Watched (All-Time): # Trakt specific chart lists
+  Trakt - Mais Assistidos (Sempre): # Trakt specific chart lists
     template: { name: TV }
     trakt_chart:
       chart: watched
@@ -117,7 +117,7 @@ collections:
       - monthly(25)
     summary: Movies most watched online of all time.
 
-  Trakt - Most Watched (Yearly):
+  Trakt - Mais Assistidos (Anual):
     template: { name: TV }
     trakt_chart:
       chart: watched
@@ -127,7 +127,7 @@ collections:
     summary: Most watched shows across the internet this year.
     visible_shared: monthly(23)
 
-  Trakt - Recommended:
+  Trakt - Recomendados:
     template: { name: TV }
     trakt_recommendations: 30
     sort_title: ++++++_Trakt - Recommended

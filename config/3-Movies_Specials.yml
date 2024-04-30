@@ -24,7 +24,7 @@ templates:
     visible_library: false
 
 collections:
-  1001+ Movies You Must See Before You Die:
+  1001+ Filmes que tens de ver antes de morrer:
     template: { name: Special Other }
     summary: 1001+ of the best movies you need to see before you die.
     visible_shared:
@@ -51,14 +51,14 @@ collections:
       all:
         hdr: true
 
-  Family Friendly: # Better suited movies for family watching
+  Familiar: # Better suited movies for family watching
     template: { name: Special Other }
     summary: Family Friendly recognizes outstanding entertainment with an official seal for quality and impact. Age Approved Selections include age-appropriate media with the potential to spark family conversations.
     visible_shared: monthly(25)
     file_poster: config/posters/Family Friendly.png
     trakt_list: https://trakt.tv/users/k0meta/lists/common-sense-selection-movies
 
-  Longest: # Longest movies on plex
+  Mais Longos: # Longest movies on plex
     template: { name: Special Smart Other }
     file_poster: config/posters/Longest.png
     summary: The longest movies on Plex  a minimum of 150 minutes in duration.
@@ -68,7 +68,7 @@ collections:
       all:
         duration.gt: 149
 
-  Newly Released: # Released within the month
+  Lançados nos últimos 30 dias: # Released within the month
     template: { name: Special Smart }
     file_poster: config/posters/Newly Released.png
     summary: Movies recently released in the past month.
@@ -78,7 +78,7 @@ collections:
       all:
         release: 30
 
-  No Swedish Subtitles:
+  No Portuguese Subtitles:
     sync_mode: sync
     sort_title: zzzzzzzzzzz_No Swedish Subtitles
     file_poster: config/posters/No Swedish Subtitles.png
@@ -86,9 +86,9 @@ collections:
     smart_filter:
       sort_by: added.desc
       all:
-        subtitle_language.not: sv
+        subtitle_language.not: pt
 
-  Played: # Fetched information from Tautulli
+  Os mais reproduzidos: # Fetched information from Tautulli
     template: { name: Special Smart Other }
     tautulli_popular:
       list_days: 31
@@ -99,7 +99,7 @@ collections:
     summary: Most played movies on Plex the past month.
     smart_label: viewed.desc
 
-  Random: # Random movies with a rating above 4 from IMDb
+  Aleatório: # Random movies with a rating above 4 from IMDb
     template: { name: Special Smart }
     file_poster: config/posters/Random.png
     summary: Random movies.
@@ -111,7 +111,7 @@ collections:
       all:
         audience_rating.gte: 4.0
 
-  Shortest: # Shortest movies on plex
+  Mais Curtos: # Shortest movies on plex
     template: { name: Special Smart }
     visible_library: true
     summary: The shortest movies on Plex with a max duration of 85 minutes and under.
@@ -123,7 +123,7 @@ collections:
         duration.lt: 85
         genre.not: Animation
 
-  Watched: # Fetched information from Tautulli
+  Vistos: # Fetched information from Tautulli
     template: { name: Special Smart Other }
     tautulli_watched:
       list_days: 9999
@@ -134,7 +134,7 @@ collections:
     summary: Movies watched on Plex by all users.
     smart_label: viewed.desc
 
-  Worst: # Movies with a rating of less than 4 from IMDb
+  Piores: # Movies with a rating of less than 4 from IMDb
     template: { name: Special Smart Other }
     summary: Worst movies on Plex rated 4.0 or lower.
     file_poster: config/posters/Worst.png
