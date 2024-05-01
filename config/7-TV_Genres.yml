@@ -70,7 +70,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 7.0
-        genre: animation
+        genre: animação
 
   Comédia:
     template: { name: Genre }
@@ -83,7 +83,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 7.0
-        genre: comedy
+        genre: comédia
 
   Crime:
     template: { name: Genre }
@@ -109,7 +109,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 7.0
-        genre: documentary
+        genre: documentário
 
   Drama:
     template: { name: Genre }
@@ -135,7 +135,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.6
-        genre: family
+        genre: família
 
   Fantasia:
     template: { name: Genre }
@@ -148,7 +148,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 7.0
-        genre: fantasy
+        genre: fantasia
 
   História:
     template: { name: Genre }
@@ -161,7 +161,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.8
-        genre: history
+        genre: história
 
   Horror:
     template: { name: Genre }
@@ -210,7 +210,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 7.0
-        genre: mystery
+        genre: mistério
 
   Romance:
     template: { name: Genre }
@@ -236,7 +236,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 7.0
-        genre: science fiction
+        genre: ficção científica
 
   Desporto:
     template: { name: Genre }
@@ -276,7 +276,7 @@ collections:
       all:
         audience_rating.gte: 6.5
         genre:
-          - war
+          - guerra
           - war & politics
 
   Faroeste:
@@ -290,7 +290,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.2
-        genre: western
+        genre: faroeste
 
   ############################################
   #               SUBGENRES 11.0             #
@@ -540,7 +540,7 @@ collections:
         audience_rating.gte: 6.4
         genre:
           - romance
-          - comedy
+          - comédia
 
   Drama Romântico:
     template: { name: Genre Smart }

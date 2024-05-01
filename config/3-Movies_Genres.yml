@@ -56,7 +56,7 @@ collections:
       sort_by: random
       validate: false
       all:
-        genre: animation
+        genre: animação
         country.not: japan
         audio_language.not: ja
 
@@ -69,7 +69,7 @@ collections:
       sort_by: random
       validate: false
       all:
-        genre: animation
+        genre: animação
         country: japan
 
   Biografia:
@@ -95,7 +95,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.0
-        genre: comedy
+        genre: comédia
 
   Crime:
     template: { name: Genre }
@@ -120,7 +120,7 @@ collections:
       limit: 400
       validate: false
       all:
-        genre: documentary
+        genre: documentário
 
   Drama:
     template: { name: Genre }
@@ -146,7 +146,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.1
-        genre: family
+        genre: família
 
   Fantasia:
     template: { name: Genre }
@@ -159,7 +159,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.4
-        genre: fantasy
+        genre: fantasia
 
   História:
     template: { name: Genre }
@@ -172,7 +172,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.8
-        genre: history
+        genre: história
 
   Horror:
     template: { name: Genre }
@@ -222,7 +222,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.0
-        genre: mystery
+        genre: mistério
 
   Romance:
     template: { name: Genre }
@@ -248,7 +248,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.5
-        genre: science fiction
+        genre: ficção científica
 
   Desporto:
     template: { name: Genre }
@@ -285,7 +285,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.4
-        genre: TV Movie
+        genre: cinema TV
 
   Guerra:
     template: { name: Genre }
@@ -298,7 +298,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.4
-        genre: war
+        genre: guerra
 
   Faroeste:
     template: { name: Genre }
@@ -310,7 +310,7 @@ collections:
       limit: 400
       validate: false
       all:
-        genre: western
+        genre: faroeste
 
   ######################################################
   #                  SUBGENRES 14.0                    #
@@ -733,7 +733,7 @@ collections:
       limit: 300
       validate: false
       all:
-        genre: music
+        genre: musical
 
   Mitologia:
     template: { name: Genre Other }
@@ -959,7 +959,7 @@ collections:
       all:
         genre:
           - romance
-          - comedy
+          - comédia
 
   Drama Romântico:
     template: { name: Genre Smart }
@@ -1287,3 +1287,12 @@ collections:
     plex_search:
       any:
         audio_language: es
+  Portugal:
+    template: { name: Genre Other }
+    summary: Some of the best movies made in Portugal.
+    file_poster: config/posters/Portugal.jpg
+    visible_shared: range(07/14-07/22)
+    trakt_list: https://trakt.tv/users/bisonte77/lists/portuguese-tv-and-movies?sort=released%2Casc
+    plex_search:
+      any:
+        audio_language: pt
