@@ -555,7 +555,7 @@ collections:
       validate: false
       all:
         country: china
-        genre: animation
+        genre: animação
         title.not:
           - extinct
           - abominable

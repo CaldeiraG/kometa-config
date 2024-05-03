@@ -285,7 +285,7 @@ collections:
     plex_search:
       all:
         title: babe
-        genre: family
+        genre: família
 
   Bad Moms:
     template: { name: Franchise }
@@ -358,7 +358,7 @@ collections:
     plex_search:
       all:
         title: beethoven
-        genre: comedy
+        genre: comédia
 
   Big Mommas House:
     template: { name: Franchise }
@@ -1159,7 +1159,7 @@ collections:
     plex_search:
       all:
         title: godzilla
-        genre: animation
+        genre: animação
 
   Gremlins:
     template: { name: Franchise }
@@ -1868,7 +1868,7 @@ collections:
     plex_search:
       all:
         title: mortal kombat
-        genre: animation
+        genre: animação
 
   Monsters:
     template: { name: Franchise }
@@ -2450,7 +2450,7 @@ collections:
         title.not:
           - the mystery begins
           - curse of the lake monster
-        genre: animation
+        genre: animação
 
   Scooby-Doo! (Live-Action):
     template: { name: Franchise }
@@ -2660,7 +2660,7 @@ collections:
     plex_search:
       all:
         title: stand by me
-        genre: animation
+        genre: animação
 
   Super Mario Bros.:
     template: { name: Franchise }
