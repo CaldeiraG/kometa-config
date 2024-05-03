@@ -618,3 +618,10 @@ collections:
     trakt_list:
       - https://trakt.tv/users/theobscureking/lists/all-zombie-series-or-similiar?sort=rank,asc
       - https://trakt.tv/users/skavau/lists/zombie-live-action-series?sort=popularity,asc
+
+  Portugal:
+    template: { name: Genre Other }
+    summary: TV shows made in Portugal.
+    file_poster: config/posters/Portugal.jpg
+    visible_shared: monthly(10)
+    trakt_list: https://trakt.tv/users/bisonte77/lists/portuguese-tv-and-movies?sort=released%2Casc

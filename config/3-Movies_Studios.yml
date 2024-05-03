@@ -180,7 +180,7 @@ collections:
   MAPPA:
     template: { name: Studio, company: 21444 }
     summary: MAPPA Co., Ltd. is a Japanese animation studio headquartered in Suginami, Tokyo. Founded in 2011 by Madhouse co-founder and producer Masao Maruyama, it has produced anime works including Kids on the Slope, Terror in Resonance, Yuri!!! on Ice, In This Corner of the World, Zombieland Saga, Dororo, Jujutsu Kaisen, and Attack on Titan The Final Season.
-    file_poster: config/posters/MAPPA.png
+    file_poster: config/posters/Mappa.png
 
   Monkeypaw Productions:
     template: { name: Studio, company: 88934 }
@@ -195,7 +195,7 @@ collections:
   NEON:
     template: { name: Studio, company: 90733 }
     summary: Neon is an American film production and distribution company founded in 2017 by CEO Tom Quinn and Tim League, who also was the co-founder of the Alamo Drafthouse Cinema chain.
-    file_poster: config/posters/NEON.png
+    file_poster: config/posters/Neo.png
 
   New Line Cinema:
     template: { name: Studio, company: 12 }
