@@ -43,11 +43,11 @@ collections:
       all:
         content_rating: TV-MA
 
-  480P+: # 480p and 576p TV Shows
+  480p+: # 480p and 576p TV Shows
     template: { name: Special Plus }
     summary: A collection of TV Shows in SD, 480p and 576p quality.
     sort_title: zz__1480P+
-    file_poster: config/posters/480P+.png
+    file_poster: config/posters/480p+.png
     plex_search:
       any:
         resolution:
@@ -55,29 +55,29 @@ collections:
           - 480p
           - 576p
 
-  720P:
+  720p:
     template: { name: Special Plus }
     summary: A collection of TV Shows in 720p quality.
     sort_title: zz__1720P
-    file_poster: config/posters/720P.png
+    file_poster: config/posters/720p.png
     plex_search:
       all:
         resolution: 720p
 
-  1080P:
+  1080p:
     template: { name: Special Plus }
     summary: A collection of TV Shows in 1080p quality.
     sort_title: zz__31080P
-    file_poster: config/posters/1080P.png
+    file_poster: config/posters/1080p.png
     plex_search:
       all:
         resolution: 1080p
 
-  2160P:
+  2160p:
     template: { name: Special }
     summary: A collection of TV Shows in 4K.
     sort_title: zz__42160P
-    file_poster: config/posters/2160P.png
+    file_poster: config/posters/2160p.png
     plex_search:
       all:
         resolution: 4K

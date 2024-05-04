@@ -408,7 +408,7 @@ collections:
     template: { name: Streaming }
     summary: HULU Original movies.
     visible_shared: monthly(30)
-    file_poster: config/posters/HULU.png
+    file_poster: config/posters/Hulu.png
     trakt_list: https://trakt.tv/users/k0meta/lists/hulu-originals?sort=rank,asc
 
   Netflix:

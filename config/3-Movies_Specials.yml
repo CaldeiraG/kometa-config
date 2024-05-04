@@ -35,10 +35,10 @@ collections:
       - https://trakt.tv/users/captainnapalm/lists/1001-greatest-movies-of-all-time?sort=rank,asc
       - https://trakt.tv/users/athwilson/lists/1001-movies?sort=released,desc
 
-  2160P:
+  2160p:
     template: { name: Special }
     summary: A collection of movies in 4K.
-    file_poster: config/posters/2160P.png
+    file_poster: config/posters/2160p.png
     plex_search:
       all:
         resolution: 4K
