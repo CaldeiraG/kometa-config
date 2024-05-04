@@ -248,7 +248,7 @@ collections:
 
   Hulu:
     template: { name: streaming, network: "Hulu" }
-    file_poster: config/posters/HULU.png
+    file_poster: config/posters/Hulu.png
     studio: Hulu
     visible_shared:
       - monthly(7)

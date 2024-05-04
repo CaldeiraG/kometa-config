@@ -778,7 +778,7 @@ collections:
   One-shot:
     template: { name: Genre Other }
     summary: Films that appear as one shot, whether achieved through a genuine single take or edited together.
-    file_poster: config/posters/One-shot.png
+    file_poster: config/posters/One-Shot.png
     visible_shared: monthly(18)
     letterboxd_list:
       - https://letterboxd.com/wribhu/list/one-shot/
