@@ -9,10 +9,10 @@ templates:
 
 # Creates collections for movies in the same series with 2 or more.
 collections:
-  2 Days in:
+  2 Days In:
     template: { name: Franchise }
     summary: 2 Days in.. is a romantic comedy-drama film written, produced, and directed by Julie Delpy, who also edited the film, composed the soundtrack and played the leading female role. The film also stars Adam Goldberg and Daniel Brühl.
-    file_poster: config/posters/2 Days in.png
+    file_poster: config/posters/2 Days In.png
     plex_search:
       all:
         title: two days in
@@ -1103,7 +1103,7 @@ collections:
     template: { name: Franchise }
     summary: G.I. Joe is a military science fiction action film series, based on Hasbro's G.I. Joe toy, comic, and media franchises. Development for the first film began in 2003, but when the United States launched the invasion of Iraq in March 2003, Hasbro suggested adapting the Transformers instead. In 2009, the first film was released.
     file_poster: config/posters/G.I. Joe.jpg
-    trakt_list: https://trakt.tv/users/kubik0258/lists/g-i-joe?sort=released,desc
+    trakt_list: https://trakt.tv/users/yoru14/lists/g-i-joe?sort=rank,asc
 
   Ghostbusters:
     template: { name: Franchise }
@@ -1725,7 +1725,7 @@ collections:
   The Man With No Name:
     template: { name: Franchise }
     summary: The Dollars Trilogy is an Italian film series consisting of three Spaghetti Western films directed by Sergio Leone. The films are titled A Fistful of Dollars (1964), For a Few Dollars More (1965) and The Good, the Bad and the Ugly (1966). They were distributed by United Artists.
-    file_poster: config/posters/The Man with no Name.png
+    file_poster: config/posters/The Man With No Name.png
     plex_search:
       all:
         director: sergio leone

@@ -79,7 +79,7 @@ collections:
     template: { name: imdb }
     summary: The Cannes Film Festival until 2003 called the International Film Festival (Festival international du film) and known in English as the Cannes Film Festival, is an annual film festival held in Cannes, France, which previews new films of all genres, including documentaries, from all around the world. Founded in 1946, the invitation-only festival is held annually at the Palais des Festivals et des Congrès. The festival was formally accredited by the FIAPF in 1951.
     visible_shared: monthly(17)
-    file_poster: config/posters/Cannes Palme d'or.png
+    file_poster: config/posters/Cannes Palme D'Or.png
     imdb_award:
       event_id: "ev0000147"
       event_year: "1955-current"

@@ -80,9 +80,9 @@ collections:
 
   No Portuguese Subtitles:
     sync_mode: sync
-    sort_title: zzzzzzzzzzz_No Swedish Subtitles
+    sort_title: zzzzzzzzzzz_No Portuguese Subtitles
     file_poster: config/posters/No Swedish Subtitles.png
-    summary: Movies yet to recieve swedish subtitles.
+    summary: Movies yet to recieve portuguese subtitles.
     smart_filter:
       sort_by: added.desc
       all:

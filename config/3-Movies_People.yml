@@ -177,7 +177,7 @@ collections:
 
   Brendan Fraser:
     template: { name: Actor }
-    file_poster: config/posters/Brendan fraser.png
+    file_poster: config/posters/Brendan Fraser.png
     plex_search:
       all:
         actor: Brendan Fraser
@@ -890,7 +890,7 @@ collections:
 
   Song Kang-ho:
     template: { name: Actor }
-    file_poster: config/posters/Song Kang ho.png
+    file_poster: config/posters/Song Kang Ho.png
     plex_search:
       all:
         actor: Song Kang-ho
