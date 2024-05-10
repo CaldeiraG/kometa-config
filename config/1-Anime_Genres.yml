@@ -92,7 +92,7 @@ collections:
   Horror:
     template: { name: Genre }
     anilist_search:
-      genre: horror
+      genre: terror
       sort_by: score
       limit: 600
     file_poster: config/posters/Horror Anime.png

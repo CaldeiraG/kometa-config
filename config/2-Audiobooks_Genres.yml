@@ -168,7 +168,7 @@ collections:
       sort_by: random
       validate: false
       all:
-        album_genre: horror
+        album_genre: terror
 
   Literary Fiction:
     template: { name: Genre }

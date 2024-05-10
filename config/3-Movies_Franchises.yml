@@ -126,7 +126,7 @@ collections:
     plex_search:
       all:
         title: alligator
-        genre: horror
+        genre: terror
 
   All Dogs Go to Heaven:
     template: { name: Franchise }
@@ -276,7 +276,7 @@ collections:
     plex_search:
       all:
         title: the babysitter
-        genre: horror
+        genre: terror
 
   Babe:
     template: { name: Franchise }
@@ -656,7 +656,7 @@ collections:
     plex_search:
       all:
         title: crocodile
-        genre: horror
+        genre: terror
 
   Crank:
     template: { name: Franchise }
@@ -712,7 +712,7 @@ collections:
     plex_search:
       all:
         title: the crow
-        genre: horror
+        genre: terror
 
   The Cutting Edge:
     template: { name: Franchise }
@@ -1007,7 +1007,7 @@ collections:
       all:
         title: the fly
         year.not: 1958
-        genre: horror
+        genre: terror
 
   French Connection:
     template: { name: Franchise }
@@ -2346,7 +2346,7 @@ collections:
       all:
         title: ring
         title.not: ringers
-        genre: horror
+        genre: terror
 
   Rocky:
     template: { name: Franchise }

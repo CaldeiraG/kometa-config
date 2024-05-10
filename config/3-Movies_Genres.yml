@@ -185,7 +185,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 5.5
-        genre: horror
+        genre: terror
 
   Artes Marciais:
     template: { name: Genre }

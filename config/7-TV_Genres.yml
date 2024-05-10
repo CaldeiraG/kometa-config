@@ -174,7 +174,7 @@ collections:
       validate: false
       all:
         audience_rating.gte: 6.5
-        genre: horror
+        genre: terror
 
   K-Drama:
     template: { name: Genre }
