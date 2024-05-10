@@ -156,7 +156,7 @@ collections:
       all:
         title: planet
         title.not: sheen
-        genre.not: animation
+        genre.not: animação
 
   Power Universe:
     template: { name: Franchise }
@@ -166,7 +166,7 @@ collections:
       all:
         title: power
         genre: crime
-        genre.not: animation
+        genre.not: animação
 
   Scooby-Doo:
     template: { name: Franchise }

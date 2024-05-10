@@ -121,7 +121,7 @@ collections:
       validate: false
       all:
         duration.lt: 85
-        genre.not: Animation
+        genre.not: animação
 
   Vistos: # Fetched information from Tautulli
     template: { name: Special Smart Other }

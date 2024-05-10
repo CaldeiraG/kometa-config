@@ -103,7 +103,7 @@ collections:
     plex_search:
       all:
         title: addams family
-        genre.not: animation
+        genre.not: animação
 
   After:
     template: { name: Franchise }
@@ -773,7 +773,7 @@ collections:
     plex_search:
       all:
         title: wimpy kid
-        genre.not: animation
+        genre.not: animação
 
   Dirty Harry:
     template: { name: Franchise }
@@ -1292,7 +1292,7 @@ collections:
     plex_search:
       all:
         title: highlander
-        genre.not: animation
+        genre.not: animação
 
   The Hobbit:
     template: { name: Franchise }
@@ -1878,7 +1878,7 @@ collections:
       all:
         title: monsters
         genre: drama
-        genre.not: animation
+        genre.not: animação
 
   Murder Mystery:
     template: { name: Franchise }
@@ -1907,7 +1907,7 @@ collections:
     plex_search:
       all:
         title: mortal kombat
-        genre.not: animation
+        genre.not: animação
 
   The Mummy:
     template: { name: Franchise }
@@ -1916,7 +1916,7 @@ collections:
     plex_search:
       all:
         title: mummy
-        genre.not: animation
+        genre.not: animação
 
   Magic Mike:
     template: { name: Franchise }
@@ -2269,7 +2269,7 @@ collections:
     plex_search:
       all:
         title: rambo
-        genre.not: comedy
+        genre.not: comédia
 
   Re-Animator:
     template: { name: Franchise }
@@ -2575,7 +2575,7 @@ collections:
     plex_search:
       all:
         title: sherlock holmes
-        genre.not: animation
+        genre.not: animação
 
   The Shining:
     template: { name: Franchise }
@@ -3079,7 +3079,7 @@ collections:
     plex_search:
       all:
         title: wild things
-        genre.not: family
+        genre.not: família
 
   The Whole Nine/Ten Yards:
     template: { name: Franchise }
@@ -3231,4 +3231,4 @@ collections:
     plex_search:
       all:
         title: superman
-        genre.not: animation
+        genre.not: animação
