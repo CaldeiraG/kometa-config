@@ -33,6 +33,15 @@ collections:
     trakt_list:
       - https://trakt.tv/users/smwixted/lists/easter?sort=votes,asc
       - https://trakt.tv/users/tarzanislav/lists/easter?sort=added,asc
+      -
+  25 de Abril 🌹:
+    template: { name: Holiday }
+    visible_home: range(04/24-04/26)
+    visible_shared: range(04/24-04/26)
+    summary: Liberdade!
+    file_poster: config/posters/25thApril.png
+    trakt_list:
+      - https://trakt.tv/users/caldeirag/lists/25-de-abril?sort=rank,asc
 
   Dia do Pai 👨‍👦:
     template: { name: Holiday }

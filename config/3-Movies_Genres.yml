@@ -1269,5 +1269,5 @@ collections:
     template: { name: Genre Other }
     summary: Some of the best movies made in Portugal.
     file_poster: config/posters/Portugal.jpg
-    visible_shared: range(07/14-07/22)
+    visible_shared: range(06/07-06/13)
     trakt_list: https://trakt.tv/users/bisonte77/lists/portuguese-tv-and-movies?sort=released%2Casc
