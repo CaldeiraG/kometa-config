@@ -67,8 +67,8 @@ collections:
 
   Dia da Mãe 👩‍👧:
     template: { name: Holiday }
-    visible_home: range(05/01-05/31)
-    visible_shared: range(05/01-05/31)
+    visible_home: range(05/03-05/07)
+    visible_shared: range(05/03-05/07)
     summary: Every Mothers special day.
     file_poster: config/posters/Mothers Day.png
     trakt_list:
