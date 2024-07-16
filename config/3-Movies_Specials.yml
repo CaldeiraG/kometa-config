@@ -58,6 +58,20 @@ collections:
     file_poster: config/posters/Family Friendly.png
     trakt_list: https://trakt.tv/users/k0meta/lists/common-sense-selection-movies
 
+  Favored: # Fetched information from Tautulli
+    template: { name: Special Smart Other }
+    tautulli_popular:
+      list_days: 31
+      list_size: 20
+      list_minimum: 1
+    tautulli_watched:
+      list_days: 31
+      list_size: 20
+      list_minimum: 1
+    smart_label: viewed.desc
+    file_poster: config/posters/Favored.png
+    summary: The most favored Movies on Plex by users the past month.
+
   Mais Longos: # Longest movies on plex
     template: { name: Special Smart Other }
     file_poster: config/posters/Longest.png
