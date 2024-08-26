@@ -1,4 +1,4 @@
-docker run -it -v "C:\plex addons\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager --run
+git docker run -it -v "C:\plex addons\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager --run
 docker run -it -v "C:\plex addons\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager:develop --run
 docker run -it -v "C:\plex addons\plex-meta-manager/config:/config:rw" meisnate12/plex-meta-manager:nightly --run
 ---------------------------------------------------------------------------------------------------------------------------------
