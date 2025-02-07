@@ -131,7 +131,7 @@ collections:
 
   Mais Curtos: # Shortest movies on plex
     template: { name: Special Smart }
-    visible_library: true
+    visible_shared: monthly(8)
     summary: The shortest movies on Plex with a max duration of 85 minutes and under.
     file_poster: config/posters/Shortest.png
     smart_filter:
