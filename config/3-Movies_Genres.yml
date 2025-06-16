@@ -397,13 +397,6 @@ collections:
       - https://trakt.tv/users/k0meta/lists/movies-based-on-true-stories?sort=rank,asc
       - https://trakt.tv/users/manu101/lists/based-inspired-on-actual-events
 
-  Bollywood:
-    template: { name: Subgenre False }
-    summary: Hindi cinema, popularly known as Bollywood and formerly as Bombay cinema, refers to the film industry based in Mumbai, engaged in production of motion pictures in Hindi language.
-    file_poster: config/posters/Bollywood.png
-    visible_shared: monthly(18)
-    trakt_list: https://trakt.tv/users/darkave/lists/bollywood?sort=added,asc
-
   Adaptação Livro:
     template: { name: Subgenre }
     summary: Movies based on book novels.
@@ -555,23 +548,6 @@ collections:
     trakt_list:
       - https://trakt.tv/users/29zombies/lists/disaster?sort=title,asc
       - https://trakt.tv/users/urban-legend/lists/disaster
-
-  Donghua:
-    template: { name: Subgenre Other }
-    file_poster: config/posters/Donghua.png
-    visible_library: false
-    summary: Animated movies from China.
-    smart_filter:
-      sort_by: random
-      validate: false
-      all:
-        country: china
-        genre: animação
-        title.not:
-          - extinct
-          - abominable
-          - kung fu
-          - paws of
 
   Drogas:
     template: { name: Subgenre False }
